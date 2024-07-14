@@ -1,0 +1,222 @@
+body{
+    background-color: #111;
+    font-family: Helvetica;
+    color: white;
+}
+
+#location-input{
+    margin-left: 30vw;
+    margin-top: 15vh;
+    padding-top: 15px;
+    padding-left: 10px;
+   width: 35rem;
+   height: 130px;
+   background-color: #090909;
+   border: 1px solid #555;
+   border-radius: 10px;
+}
+
+#location-input label{
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight:bold;
+}
+#location-input input {
+    width: 25rem;
+    height: 2rem;
+    background-color: #090909;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: Helvetica;
+    border: 1px solid #555;
+    color: white;
+    margin-bottom: 0px;
+}
+
+
+
+#sub-text{
+    color: #d4d4d4;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+#submit-location{
+    padding: 10px 10px;
+    background-color: #fff;
+    font-family: Helvetica;
+    color: black;
+    font-weight: 300;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/* location card */
+
+#location-card{
+  
+   margin-left: 35vw;
+   margin-top: 20vh;
+    width: 440px;
+    height: 230px;
+    background-color: #090909;
+    border: 1px solid #555;
+    border-radius: 10px;
+    color: #9c9c9c;
+    position: relative;
+   
+}
+#text-container{
+    display: flex;
+    gap: 12rem;
+    color: white;
+    margin-left: 5px;
+    
+}
+#text-container > #address {
+    font-size: 32px;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-top: 5px;
+    
+}
+#text-container > #date-time{
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+#celsius-temperature{
+    position: absolute;
+   font-size: 20px;
+   top: 15%;
+   left: 2%;
+  color: white;
+}
+#farenheit-temperature{
+    position: absolute;
+    font-size: 20px;
+    top: 30%;
+    left: 2%;
+    margin-bottom: 10px;
+    color:white;
+}
+
+#condition{
+    margin-top: 60px;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+#description{
+    position: absolute;
+    font-size: 16px;
+    margin-top: 0%;
+    margin-left: 10px;
+    width: 20rem;
+}
+
+#days-card{
+    width: 300px;
+    height: 250px;
+    background-color: #090909;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding-left:5px ;
+}
+#date-container{
+    margin-top: 5rem;
+    margin-left: 20rem;
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    width: fit-content;
+    background-color: #090909;
+    border: 1px solid #555;
+    border-radius: 10px;
+}
+
+
+#day-date{
+    font-weight: bold;
+}
+
+#current-temp-label{
+    margin-bottom: 0px;
+    color: #707070;
+    font-size: 16px;
+}
+#current-temp{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#min-max{
+    display: flex;
+}
+#max-div{
+    margin-top: -10px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 0px;
+}
+#max-temp-label,#min-temp-label{
+    color: #707070;
+}
+#min-div{
+    margin-top: -20px;
+    display: flex;
+    gap: 10px;
+    margin-bottom:0px ;
+
+}
+
+#date-desc{
+    margin-top: -10px;
+}
+
+
+
+
+
+
+/* hero text contents */
+
+#hero-text{
+    align-content: center;
+}
+#hero-title{
+    font-size: 10rem;
+    text-align:center ;
+    margin-bottom: 0px;
+}
+#sub-text-1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#alert-box{
+    position: absolute;
+    top: 5%;
+    background-color: #090909;
+    border: 1px solid #ff5454;
+    width:30rem;
+    margin-left: 35vw;
+    height: fit-content;
+    border-radius:10px;
+    padding: 0px 10px;
+}
+#alert{
+    margin-bottom: 0px;
+}
+
+#sub-text-2{
+    margin-top: 5px;
+}
